@@ -12,3 +12,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Fix for sass-embedded in containers
+gem "sass-embedded", "~> 1.69.5"

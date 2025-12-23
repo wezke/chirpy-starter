@@ -2,7 +2,8 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.4", ">= 7.4.1"
+gem "jekyll-theme-chirpy", "~> 6.5"
+
 
 gem "html-proofer", "~> 5.0", group: :test
 
@@ -13,5 +14,5 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
-# Fix for sass-embedded in containers
-gem "sass-embedded", "~> 1.69.5"
+
+

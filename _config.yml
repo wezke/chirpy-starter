@@ -16,30 +16,30 @@ timezone: europe/London
 
 title: Wesley Billiaert # the main title
 
-tagline: System Engineer | Homelab Enthusiast # it will display as the subtitle
+tagline: Junior System Engineer | Homelab Enthusiast # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: http://192.168.20.28:8080
+url: https://www.billflam.be
 
 github:
-  username: Wezke # change to your GitHub username
+  username: wezke # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: wezke # change to your Twitter username
 
 social:
   social:
   name: Wesley Billiaert
-  email: your.email@example.com
+  email: wesley.billiaert2@telenet.be
   links:
     - https://github.com/wezke
     - https://www.linkedin.com/in/wesley-billiaert-112410169/
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
+    #  # change to your Twitter homepage
     - https://github.com/wezke # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -89,7 +89,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dual
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

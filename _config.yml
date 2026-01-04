@@ -28,7 +28,7 @@ url: https://www.billflam.be
 github:
   username: wezke # change to your GitHub username
 
-twitter:
+  #twitter:
   #username:  # change to your Twitter username
 
 social:
@@ -43,7 +43,7 @@ social:
     - https://github.com/wezke # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/wesley-billiaert
+    - www.linkedin.com/in/wesley-billiaert-112410169
 
 # Site Verification Settings
 webmaster_verifications:

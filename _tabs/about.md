@@ -6,19 +6,25 @@ order: 4
 
 # 👋 Hi
 
-I'm Wesley, aka Wez (GamerTag), and I recently graduated with an associate degree in network and system administration (and no, I am not that young lol). A couple of years ago I decided to finally get a degree, which I didn't really want as a young growing kid (rolls eyes, don't tell me). Nevertheless, better late than never, right?
+I'm Wesley, most people call me Wez. I'm a System Engineer with a background in network and system administration — a degree I picked up a little later in life because, well, teenage me didn't exactly see the point of studying. Better late than never, right?
 
-It was quite the road, I must admit. In the same timespan I became a father of 2 beautiful girls and changed jobs twice so I'd be able to support my family and study at the same time - coming from working full time, 4 shifts.
+Getting that degree wasn't straightforward. Somewhere along the way I became a father to 2 beautiful girls, changed jobs twice to keep things afloat, and went from working full-time in 4-shift rotations to studying on whatever hours were left. It took about 5-6 years, but I got there.
 
-But 5-6 years later I have my degree, and have 2-3 years of experience in the IT industry as a service desk engineer. Now I'm evolving into a Junior System Engineer.
+I started out on the service desk, spent a couple of years learning the ropes, and have since moved into system engineering. Outside of work, I run a homelab that's probably a bit overengineered — a 6-node Kubernetes cluster on Talos Linux, fully managed through Terraform and ArgoCD, with Cilium, Longhorn, Harbor, and a complete Prometheus/Grafana/Loki observability stack. It's where I break things, fix them, and learn more than any course could teach me.
 
-I developed a passion for infrastructure automation (yeah, we had to set up servers quite a lot for our classes, which became rather boring) so I decided to self-study while attending classes. I learned tools like Terraform, Ansible, and Packer, and now I'm also studying Kubernetes, ArgoCD, etc. Who ever knew studying would become a hobby? *laughs*
+On top of that, I manage my home network end-to-end with a Ubiquiti UniFi setup — UDM, multiple access points, VLAN segmentation, and firewall rules to keep everything properly isolated. The homelab traffic, IoT devices, and family Wi-Fi all live on separate segments. It's the kind of thing that sounds excessive until something misbehaves and you're glad the blast radius is contained.
 
-## What I'm Working On
+Infrastructure automation turned from a school assignment into a genuine passion. Who knew studying would become a hobby? *laughs*
 
-- Infrastructure as Code (IaC) with Terraform
-- Configuration Management with Ansible
-- Container Orchestration with Kubernetes
-- GitOps with ArgoCD
+## What I Work With
 
-Feel free to connect with me!
+- **Kubernetes** — Talos Linux, Cilium, Longhorn, Traefik
+- **IaC** — Terraform for provisioning, Ansible for configuration
+- **GitOps** — ArgoCD with Kustomize
+- **Observability** — Prometheus, Grafana, Loki
+- **Virtualization** — XCP-ng, XenOrchestra
+- **Networking** — Ubiquiti UniFi, VLANs, firewall segmentation
+
+I also take on occasional [consulting work](/consulting/) for teams that need a hand with Kubernetes, GitOps, or infrastructure automation.
+
+Feel free to connect!

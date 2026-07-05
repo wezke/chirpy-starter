@@ -20,11 +20,13 @@ Infrastructure automation turned from a school assignment into a genuine passion
 
 - **Kubernetes** — Talos Linux, Cilium, Longhorn, Traefik
 - **IaC** — Terraform for provisioning, Ansible for configuration
-- **GitOps** — ArgoCD with Kustomize
+- **GitOps** — ArgoCD with Helm and Kustomize
 - **Observability** — Prometheus, Grafana, Loki
 - **Virtualization** — XCP-ng, XenOrchestra
 - **Networking** — Ubiquiti UniFi, VLANs, firewall segmentation
 
-I also take on occasional [consulting work](/consulting/) for teams that need a hand with Kubernetes, GitOps, or infrastructure automation.
 
-Feel free to connect!
+I have created this blog to keep pushing myself to improve current setup and continiously learn new things
+And ofcourse share knowledge with others and learn from others, feel free to email me with sugestions.
+
+Always happy to connect with people still learning or wanting to share!

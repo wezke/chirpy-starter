@@ -126,4 +126,3 @@ If you're an infrastructure engineer thinking about building a homelab, my advic
 
 ---
 
-*I occasionally take on consulting work for Kubernetes architecture, GitOps pipelines, and observability. Check out my [Consulting](/consulting/) page if your team needs a hand.*

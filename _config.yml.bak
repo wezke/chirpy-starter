@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: https://www.gitopswithwez.com
+url: https://www.billflam.be
 
 github:
   username: wezke # change to your GitHub username
@@ -34,7 +34,7 @@ github:
 social:
   social:
   name: Wesley Billiaert
-  email: hello@gitopswithwez.com
+  email: wesley.billiaert2@telenet.be
   links:
     - https://github.com/wezke
     - https://www.linkedin.com/in/wesley-billiaert-112410169/

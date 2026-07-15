@@ -1,5 +1,5 @@
 ---
-title: "How I Built a Production-Grade Kubernetes Cluster in My Homelab"
+title: "How I Built a Kubernetes Cluster in My Homelab"
 date: 2026-04-27 12:00:00 +0000
 categories: [Homelab, Kubernetes]
 tags: [kubernetes, talos, terraform, argocd, cilium, devops, gitops]
@@ -7,7 +7,7 @@ description: "What I learned building a 6-node, fully GitOps-managed Kubernetes 
 pin: true
 ---
 
-Most Kubernetes tutorials stop at `minikube start`. Real production environments don't. Here's what I learned building a 6-node, fully GitOps-managed Kubernetes cluster at home — and why it changed how I think about infrastructure.
+Most Kubernetes tutorials explain how to install kubernetes with minikube or inside docker containers, however i wanted something more 'professional grade' so i whent with a new flavor called Talos OS wich is designed for kubernetes via api management.
 
 ## The Setup
 
@@ -104,11 +104,11 @@ None of this is groundbreaking. It's just the boring security work that gets ski
 
 ## Lessons That Translate to Production
 
-**Self-hosted registries matter.** Running Harbor taught me more about container supply chains than any conference talk. Setting up TLS with self-signed CAs, injecting the CA trust into every node via Terraform machine config patches, and verifying the end-to-end pull works — these are skills that directly apply to enterprise environments.
+**Self-hosted registries matter.** Running Harbor taught me more about container supply chains, usefull for airgapped environments . Setting up TLS with self-signed CAs, injecting the CA trust into every node via Terraform machine config patches, and verifying the end-to-end pull works.
 
-**Storage is never simple.** Longhorn is excellent, but I've had incidents. A misconfigured `podSecurityContext` once took down my Grafana PVC. You learn more from recovering from storage failures than from any documentation.
+**Storage is never simple.** Longhorn is excellent, but I've had incidents. A misconfigured `podSecurityContext` once took down my Grafana PVC. that is the point of the homelab to learn and improve!
 
-**Observability isn't optional.** When something breaks at 10 PM, you need Prometheus metrics and Loki logs to tell you what happened, because you're not going to figure it out by staring at `kubectl get pods`. The monitoring stack isn't overhead — it's the thing that lets you sleep.
+**Observability isn't optional.** When something breaks at 10 PM, you need Prometheus metrics and Loki logs to tell you what happened, because you're not going to figure it out by staring at `kubectl get pods` or maybe you can but an UI is handy and in a real production grade environment this sort of loggin will be demanded by youre developers.
 
 **Terraform state is sacred.** I learned the hard way about managing Terraform state when dealing with a two-phase IP workflow for Talos nodes. The plan now is to move to static IPs in machine configs to simplify the lifecycle.
 

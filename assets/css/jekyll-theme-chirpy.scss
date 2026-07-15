@@ -1,0 +1,39 @@
+---
+---
+@import 'main';
+/* append your custom style below */
+
+/* Keep sidebar always dark regardless of theme mode */
+#sidebar {
+  background: #1b1932 !important;
+  color: #e2e8f0 !important;
+
+  .site-title { color: #e2e8f0 !important; }
+  .site-subtitle { color: #a0a0b8 !important; }
+
+  .nav-link {
+    color: #e2e8f0 !important;
+    &:hover, &.active { color: #ffffff !important; }
+  }
+
+  .nav-item .nav-link .fa, .nav-item .nav-link .fas {
+    color: #e2e8f0 !important;
+  }
+
+  .sidebar-bottom a { color: #e2e8f0 !important; }
+}
+
+/* Blue post title links */
+.card-title a,
+.post-preview a,
+h1.dynamic-title a,
+#main-wrapper a.card-title {
+  color: #6cb4ee !important;
+  &:hover { color: #8fc8f5 !important; }
+}
+
+/* Blue links inside post content */
+.post-content a {
+  color: #6cb4ee !important;
+  &:hover { color: #8fc8f5 !important; }
+}
